@@ -15,6 +15,8 @@ Team bukkit plugin, created to allow players to have custom teams with players
   /tleave [will leave the team if a member, will destory the team if owner]
   /tinvite [invite online player's to team, or offline player's will require UUID for offline or name]
   /tstats [list members of the team, team owner, kills, deaths, prefix]
+  /treload [reload teamplus config]
+  /tkick [kick player's from a team if owner]
   
 # Config 
   most thing's work via config, but some don't untill i update it
