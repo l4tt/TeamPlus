@@ -1,0 +1,45 @@
+name: Team_Plus
+version: '${project.version}'
+main: net.stealsmp.team_plus.Team_Plus
+api-version: 1.19
+authors: [Nano]
+description: TeamPlus, allows you to create teams with other player's
+website: stealsmp.net
+commands:
+  team:
+    description: TeamPlus list of valid commands
+    usage: /teamplus
+    aliases: tplus
+  teamcreate:
+    description: Create a team
+    usage: /tcreate
+    aliases: tcreate
+  teaminvite:
+    description: Invite players to a team
+    usage: /tinvite
+    aliases: tinvite
+  teamjoin:
+    description: Join a team via invite
+    usage: /tjoin
+    aliases: tjoin
+  teamreload:
+    description: Reload TeamPlus Config
+    usage: /treload
+    aliases: treload
+    permission: teamplus.reload
+  teamleave:
+    description: Leave your team
+    usage: /tleave
+    aliases: tleave
+  teamcombat:
+    description: allow team to enter combat with members
+    usage: /tcombat
+    aliases: tcombat
+  teamkick:
+    description: kick a player from your team
+    usage: /tkick
+    aliases: tkick
+  teaminfo:
+    description: Current team stats
+    usage: /tstats
+    aliases: tstats

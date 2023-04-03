@@ -1,0 +1,10 @@
+# Set TeamPlus prefix, support's rgb color's
+prefix: "&x&f&b&c&7&2&9T&x&f&c&b&d&3&2e&x&f&c&b&2&3&ca&x&f&d&a&8&4&5m&x&f&d&9&d&4&es&x&f&e&9&3&5&7P&x&f&e&8&8&6&1l&x&f&f&7&e&6&au&x&f&f&7&3&7&3s &r"
+# Max amount of player's that can be in a team
+max_player_team: 10
+# Global, default: true, this will allow teams to turn off and on PVP
+allow_team_pvp: true
+# Global, default: true, this will allow teams to tp to their teammates
+allow_team_tp: true
+# Global, default: true, this will allow teams to see their teammates cord's / Only should be used if tp is set to false
+allow_team_cords: true
